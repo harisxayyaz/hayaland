@@ -18,7 +18,7 @@ export function Carouselcomponent() {
           align: "start",
           loop: true,
         }}
-        className="w-[50%]"
+        className="lg:w-[50%] w-[75%] cursor-pointer hover:shadow-lg hover:scale-105 transition duration-200"
       >
         <CarouselContent>
           <CarouselItem>
