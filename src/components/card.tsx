@@ -11,7 +11,7 @@ interface CardProps {
 
 const Card: React.FC<CardProps> = ({ title, imageUrl, item1, item2, icon1, icon2 }) => {
   return (
-    <div className="flex flex-col bg-black w-80 items-center text-white py-4 rounded-2xl cursor-pointer hover:shadow-lg hover:scale-105 transition duration-200">
+    <div className="flex flex-col bg-black lg:w-[340px] w-[300px]   items-center text-white py-4 rounded-2xl cursor-pointer hover:shadow-lg hover:scale-105 transition duration-200">
       <h1 className=" text-center">{title}</h1>
       <img className="h-60 w-60" src={imageUrl} alt="" />
 

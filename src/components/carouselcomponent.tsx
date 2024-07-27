@@ -18,11 +18,15 @@ export function Carouselcomponent() {
           align: "start",
           loop: true,
         }}
-        className="lg:w-[50%] w-[75%] cursor-pointer hover:shadow-lg hover:scale-105 transition duration-200"
+        className="lg:w-[60%] w-[75%] cursor-pointer hover:shadow-lg hover:scale-105 transition duration-200 "
       >
         <CarouselContent>
           <CarouselItem>
-            <img src="./banners/1.png" alt="Banner 1" />
+            <img
+              className="rounded-2xl"
+               src="./banners/1.png"
+              alt="Banner 1"
+            />
           </CarouselItem>
           <CarouselItem>
             <img src="./banners/2.png" alt="Banner 2" />

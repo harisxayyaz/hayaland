@@ -8,7 +8,7 @@ interface CardProps {
 
 const LongCard: React.FC<CardProps> = ({ imageUrl, text1, text2 }) => {
   return (
-    <div className="flex flex-col w-60 h-[400px] text-black py-4 rounded-3xl cursor-pointer hover:shadow-lg hover:scale-105 transition duration-200">
+    <div className="flex flex-col w-[260px] h-[400px] text-black py-4 rounded-3xl cursor-pointer hover:shadow-lg hover:scale-105 transition duration-200">
       <div className=" flex h-[50%] bg-black rounded-t-2xl justify-center items-center">
         <img className="h-[130px] w-[130px]" src={imageUrl} alt="" />
       </div>

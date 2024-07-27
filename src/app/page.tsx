@@ -1,7 +1,6 @@
 import { Carouselcomponent } from "@/components/carouselcomponent";
 import Card from "@/components/card";
 import LongCard from "@/components/longCard";
-import MyCarousel from "@/components/MyCarousel";
 
 
 export default function Home() {
@@ -11,6 +10,7 @@ export default function Home() {
         <h1 className=" h-10">bar1</h1>
         <h1 className=" h-10 bg-black text-white">bar2</h1>
       </nav>
+      
       <section className=" flex flex-col py-4 rounded-lg">
         <Carouselcomponent />
       </section>
@@ -19,7 +19,7 @@ export default function Home() {
         <h1 className=" font-extrabold text-3xl text- text-center">
           デバイスのことは、ハヤランドにお任せください。
         </h1>
-        <div className="flex flex-wrap items-center gap-4 justify-center">
+        <div className="flex flex-wrap items-center gap-8 justify-center">
           <Card
             title="買う​"
             imageUrl="./hayaland-icons/hayaru1.svg"
@@ -42,7 +42,7 @@ export default function Home() {
         <h1 className=" font-extrabold text-3xl text-center">
           ハヤランドで買うと、いいことあります。​
         </h1>
-        <div className="flex flex-wrap items-center gap-4 justify-center">
+        <div className="flex flex-wrap items-center gap-8 justify-center">
           <LongCard
             imageUrl="./hayaland-icons/7.svg"
             text1="最短で翌日にお届け​"
